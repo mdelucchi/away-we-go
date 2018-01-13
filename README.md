@@ -26,8 +26,6 @@ gopher it...
 
 _"The hardware folks will not put more cores into their hardware if the software isn’t going to use them, so, it is this balancing act of each other staring at each other, and we are hoping that Go is going to break through on the software side.” - Rick Hudson (2015)_
 
-_"Go blows away Node in pretty much every way IMO. You get all the niceties of blocking code without actually blocking, you get (relatively) tiny binaries that you can deploy anywhere with ease and no fuss, instead of 250mb of node_modules that everyone comes up with hacks to work around." - TJ Holowaychuk (2017)_
-
 ### Correctness vs Performance
 - stop trying to optimize for performance (e.g. Node/JS)
 - focus on optimizing for correctness
@@ -35,6 +33,8 @@ _"Go blows away Node in pretty much every way IMO. You get all the niceties of b
 - simple, straightforward code is the way
 - Go is built on these foundations
 - make decisions with correctness optimizations as first priority
+
+_"Go blows away Node in pretty much every way IMO. You get all the niceties of blocking code without actually blocking, you get (relatively) tiny binaries that you can deploy anywhere with ease and no fuss, instead of 250mb of node_modules that everyone comes up with hacks to work around." - TJ Holowaychuk (2017)_
 
 ### Kit Projects
 - single Kit projects should first be established
