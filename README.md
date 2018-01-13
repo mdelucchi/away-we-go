@@ -69,6 +69,18 @@ github.com/some-repo/kit
 - stripe api
 - analytics
 - binary updates
+- runes
+- collate
+- encoding
+- number
+- secure
+- transform
+- unicode
+- message/catalog
+- message/pipeline
+- search
+- width
+
 
 _"...performance means nothing if your application is frail, difficult to debug, refactor and develop." - TJ Holowaychuk (2014)_
 
