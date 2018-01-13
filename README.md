@@ -36,9 +36,18 @@ _"The hardware folks will not put more cores into their hardware if the software
 
 _"Go blows away Node in pretty much every way IMO. You get all the niceties of blocking code without actually blocking, you get (relatively) tiny binaries that you can deploy anywhere with ease and no fuss, instead of 250mb of node_modules that everyone comes up with hacks to work around." - TJ Holowaychuk (2017)_
 
+### Code Reviews
+- integrity must be the #1 priority 
+- become serious about writing reliable code
+- reads, writes, and memory allocations should all be accurate, consistent, and efficieant
+- data should never be corrupted
+- error-handling must never be an exception, but always an integral part your code
+- reduce bugs by writing less code and having less tests
+- once the code has integrity it also must be highly readable
+
 ### Kit Projects
 - single Kit projects should first be established
-- then create multiple app projects for the different sets of programs to be deployed together
+- then create multiple projects for different sets of programs to be deployed together
 - a standard library, used by a company or org
 - packages that belong to the Kit project should have highest levels of portability
 - should be usable across multiple Application projects
