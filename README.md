@@ -54,13 +54,6 @@ github.com/some-repo/kit
 └── web/
 ```
 
-### current package radar
-
-**fmt:**
-- implements formatted I/O with functions
-- analogous to C's printf and scanf
-- format 'verbs' are derived from C's but are simpler
-
 ### future explorations, notes, repos, projects
 - expressive concurrency primitives 
 - error-handling
