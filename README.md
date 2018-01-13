@@ -54,3 +54,21 @@ github.com/some-repo/kit
 └── web/
 ```
 
+### future explorations, notes, repos, projects
+- expressive concurrency primitives 
+- error-handling
+- stlib
+- 3rd party packages
+- scalable serverless apps
+- webhook managers
+- embedding binary data
+- headers
+- redirects
+- elasticsearch
+- encoding utils
+- stripe api
+- analytics
+- binary updates
+
+_"...performance means nothing if your application is frail, difficult to debug, refactor and develop." - TJ Holowaychuk (2014)_
+
