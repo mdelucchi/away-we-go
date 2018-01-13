@@ -1,7 +1,8 @@
 ## go-build-something
-exploring Go :tractor:
+![alt text](images/gopher.png "Gopher")
+gopher it...
 
-### prep :: idioms :: the _Go_ state of mind 
+### prep :: idioms :: mental models
 - don't need abstraction layers to decouple
 - go provides thinnest possible layer between the concrete (hardware) and decoupled world
 - prime focus the hardware is the platform
@@ -11,6 +12,21 @@ exploring Go :tractor:
 - cost vs benefit is key in designing & architecting go software
 - you can write programs that require minimal amount of resources to run
 - champion efficiency, quality, and simplicity
+
+### Productivity vs Performance
+- instead of sacrificing performance to be productive, go allows for both
+- it's not about being faster, but "fast enough"
+- working with Go is intended to be fast
+- it should take at most a few seconds to build a large executable on a single computer
+- go enables us to take advantage of the hardware
+- fosters an excellent balance between power and expressiveness, just like C
+- do want you want to do by just programming in a straightforward manner
+- it's all about the REAL machine, not VIRTUAL which makes for more accurate predictions
+- Go has it all really, it's just about figuring out HOW to tap into it all
+
+_"The hardware folks will not put more cores into their hardware if the software isn’t going to use them, so, it is this balancing act of each other staring at each other, and we are hoping that Go is going to break through on the software side.” - Rick Hudson (2015)_
+
+_"Go blows away Node in pretty much every way IMO. You get all the niceties of blocking code without actually blocking, you get (relatively) tiny binaries that you can deploy anywhere with ease and no fuss, instead of 250mb of node_modules that everyone comes up with hacks to work around." - TJ Holowaychuk (2017)_
 
 ### Kit Projects
 - single Kit projects should first be established
