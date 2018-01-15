@@ -1,6 +1,5 @@
-## go-build-something
+## away-we-go
 ![alt text](images/gopher.png "Gopher")
-gopher it...
 
 ### prep :: idioms :: mental models
 - don't need abstraction layers to decouple
