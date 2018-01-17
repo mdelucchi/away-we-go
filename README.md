@@ -71,6 +71,7 @@ github.com/some-repo/kit
 ```
 
 ### future explorations, notes, repos, projects
+- daemons
 - expressive concurrency primitives 
 - error-handling
 - stlib
